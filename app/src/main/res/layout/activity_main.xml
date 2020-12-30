@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background4"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="600dp"
+       android:layout_height="200dp"
+       android:src="@drawable/tranfer_money"
+       android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/view_users"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/my_button_style"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="15dp"
+        android:text="@string/view_users"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
